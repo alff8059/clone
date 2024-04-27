@@ -1,0 +1,32 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  border-top: 1px solid #efefef;
+  background-color: white;
+}
+
+.footer-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+.footer-block img {
+  width: 40px;
+}
+
+.footer-btn {
+  display: flex;
+  width: 70px;
+  justify-content: center;
+  align-items: center;
+  font-size: 10pt;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.footer-btn > div {
+  margin-top: 5px;
+}

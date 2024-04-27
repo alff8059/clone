@@ -1,0 +1,21 @@
+.main-item-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.main-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.item-list__info {
+  padding: 10px;
+}
+.item-list__img > img {
+  width: 120px;
+  background-color: aliceblue;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
